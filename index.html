@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fafafa"><meta name="description" content="我是 Doushabao，一名产品设计者。从日常中真实的问题出发，设计简单、顺手的产品。探索 Magic Grind、Gray Hole 和塔塔记。">
+<title>Doushabao — 产品与设计</title>
+<link rel="icon" href="assets/monogram.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol><symbol id="chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="qr" viewBox="0 0 24 24"><path d="M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3zM15 15h3v3h3v3h-6zM21 12v3M12 3v4M12 12h3M12 18v3"/></symbol></svg>
+<div class="page">
+<header><a class="wordmark" href="./" aria-label="Doushabao 首页">Doushabao<span class="wordmark-period">.</span></a><nav aria-label="主导航"><a href="#products">产品</a><a href="#contact">联系<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></nav></header>
+<main>
+<section class="intro" aria-labelledby="intro-title"><h1 id="intro-title">设计产品，<br>回应生活<span class="period">。</span></h1><div class="about"><p class="about-name">我是 Doushabao，一名产品设计者。</p><p>从生活里真实的问题出发，<br>设计简单、顺手的产品。</p><p>希望它们在某个合适的时刻与你相遇，<br>让日常多一分美好，少一点麻烦。</p></div></section>
+<section id="products" class="products" aria-labelledby="products-heading">
+<div class="section-heading"><h2 id="products-heading">产品</h2><span>想法，正在成为现实。</span></div>
+<div class="product-list">
+<article class="product-row"><img class="product-icon" src="assets/magicgrind.png" alt="Magic Grind 图标" width="72" height="72"><div class="product-info"><div class="product-heading"><h3>Magic Grind</h3><span class="platform">网页应用</span></div><p>把想法变成图片、海报与设计内容的 AI 设计 Agent。</p><span class="product-detail">magicandgrind.com</span></div><a class="action" href="https://magicandgrind.com/" target="_blank" rel="noopener noreferrer" aria-label="打开 Magic Grind 网站">打开网站<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></article>
+<article class="product-row"><img class="product-icon grayhole-icon" src="assets/grayhole.png" alt="Gray Hole 图标" width="72" height="72"><div class="product-info"><div class="product-heading"><h3>Gray Hole</h3><span class="platform">浏览器插件</span></div><p>摘录 AI 回答里值得留下的内容，留住对你有用的思考。</p><span class="product-detail">grayhole.tech</span></div><a class="action" href="https://grayhole.tech/" target="_blank" rel="noopener noreferrer" aria-label="了解与安装 Gray Hole 浏览器插件">了解与安装<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></article>
+<article class="product-row tata-row"><div class="product-icon tata-icon"><img src="assets/tata-code.png" alt="塔塔记图标"></div><div class="product-info"><div class="product-heading"><h3>塔塔记</h3><span class="platform">微信小程序</span></div><p>旅行、聚餐、合住，共同记账，轻松分摊。</p><span class="product-detail">微信搜索「塔塔记」</span></div><button class="action" type="button" aria-expanded="false" aria-controls="tata-panel" data-panel="tata-panel"><span>小程序码</span><svg class="icon qr-icon" aria-hidden="true"><use href="#qr"/></svg></button></article>
+<div class="qr-panel" id="tata-panel" hidden><img class="mini-code" src="assets/tata-code.png" alt="塔塔记微信小程序码" width="190" height="190"><div class="qr-copy"><h3>用微信打开塔塔记</h3><p>微信扫一扫，即可进入小程序。<br>手机上可以保存图片，在微信扫一扫中识别，<br>也可以直接搜索「塔塔记」。</p><div class="qr-actions"><button type="button" data-copy="塔塔记">复制小程序名称</button><a href="assets/tata-code.png" download="塔塔记小程序码.png">保存小程序码<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></div></div></div>
+</div>
+</section>
+<section id="contact" class="contact" aria-labelledby="contact-title"><div><h2 id="contact-title">保持联系</h2><p>关于产品的反馈，或一个值得做的新想法。<br>都欢迎来聊。</p></div><div class="contact-links"><a class="contact-link email" href="mailto:magicgrind@163.com"><span class="contact-label">邮箱</span><span>magicgrind@163.com</span><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a><button class="contact-link" type="button" aria-expanded="false" aria-controls="wechat-panel" data-panel="wechat-panel"><span class="contact-label">微信</span><span>茉莉白</span><svg class="icon chevron" aria-hidden="true"><use href="#chevron"/></svg></button></div><div class="qr-panel wechat-panel" id="wechat-panel" hidden><img src="assets/wechat.jpg" class="wechat-code" alt="茉莉白个人微信二维码" width="210" height="310"><div class="qr-copy"><h3>微信 · 茉莉白</h3><p>扫一扫，添加我为朋友。<br>手机上可保存二维码，在微信中识别。</p><a class="text-action" href="assets/wechat.jpg" download="茉莉白微信二维码.jpg">保存微信二维码<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a></div></div></section>
+</main>
+<footer><span>© <span id="year">2026</span> Doushabao</span><span>把事情做简单，把产品做认真。</span></footer>
+</div>
+<div class="toast" role="status" aria-live="polite"></div><script src="script.js"></script>
+</body></html>
