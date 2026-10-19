@@ -1,4 +1,5 @@
 const toast = document.querySelector('.toast');
+const isEnglish = document.documentElement.lang === 'en';
 let toastTimer;
 function notify(message) {
   const feedback = document.querySelector('dialog[open] .copy-feedback');
@@ -31,9 +32,9 @@ document.querySelectorAll('[data-copy]').forEach(button => {
   button.addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(button.dataset.copy);
-      notify('已复制，在微信中搜索「塔塔记」');
+      notify(isEnglish ? 'Copied. Search WeChat for “塔塔记”.' : '已复制，在微信中搜索「塔塔记」');
     } catch {
-      notify('请在微信中搜索「塔塔记」');
+      notify(isEnglish ? 'Please search WeChat for “塔塔记”.' : '请在微信中搜索「塔塔记」');
     }
   });
 });

@@ -17,3 +17,10 @@ GitHub Pages publishes the root directory of the `main` branch. `.nojekyll` keep
 ## Assets
 
 Product logos and QR codes belong to their respective owners. The contact QR code is the September 15 copy provided by the existing project; confirm it remains current when replacing contact details.
+
+## Languages
+
+- Simplified Chinese: `/`
+- English: `/en/`
+
+Both pages share CSS, scripts, product destinations and contact assets. Update both HTML files when changing product information.
